@@ -15,9 +15,8 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
       res.render('pages/index');
     });
-    
-// about page
 
+// about page
 app.get('/about', function(req, res) {
       res.render('pages/about');
     });
